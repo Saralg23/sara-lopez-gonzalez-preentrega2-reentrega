@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-image: url(images/fondo.png);
+    background-repeat: repeat;
+
+}
+h1,
+h2 {
+    color: white;
+    text-align: center; 
+    font-family: Helvetica; 
+} 
+
+p,
+li,
+label{
+    color: white;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.2em;
+    padding: 10px;
+}
+
+header{
+    background-color: white;
+}
+header a img{
+    height: 20em;
+    width: 100%;
+    
+}
+
+
+
+nav ul li a{
+             color: white !important;
+             }
+
+main {
+    background-color:#202326;
+    margin: 40px;
+    padding: 20px;
+}
+main content{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer{
+    display: flex;
+    background-color: #202326;
+    justify-content: space-around;
+    margin-top: 30px;  
+
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.legales{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+
+}
+
+.RedesSociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+
+
+}
+.RedesSociales p{
+    color: white;
+}
+.iconos a{
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+  header{
+    height: 30%;
+  }
+  main{
+    margin: 10%;
+  }
+  main content{
+    display: flex;
+    flex-direction: column;
+  }
+  .Formulario{
+    margin-bottom: 30px;
+  }
+  iframe{
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+   
+
+  }
+  footer div{
+    background-color: #202326;
+    width: 98%;
+  }
+ .RedesSociales{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+ }
+ .RedesSociales div{
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .iconos a img{
+    width: 150%;
+
+ }
+ .legales {
+    margin: 10px;
+    padding:50px;
+ }
+
+.legales a {
+    display: flex;
+    justify-content: center;
+}
